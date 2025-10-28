@@ -1,63 +1,116 @@
 import logo from "./logo.png";
+import img1 from "./img1.jpg";
+import img2 from "./img2.jpg";
+import img3 from "./img3.jpg";
+import img4 from "./img4.jpg";
+import img5 from "./img5.png";
+import img6 from "./img6.jpg";
+import img7 from "./img7.png";
+import img8 from "./img8.jpg";
+import my_picture from "./my_picture.png";
+import arrow_right from "./arrow_right.png";
 
 export const assets = {
   logo,
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  my_picture,
+  arrow_right,
 };
 
 export const blog_data = [
   {
     id: 1,
-    title: "Exploring the Hidden Gems of Bratislava",
+    title: "My Journey Into Frontend Development",
     description:
-      "Discover charming cafes, local art, and secret spots around the Slovak capital that even locals overlook.",
-    image: "/images/bratislava-hidden-gems.jpg",
-    date: "2025-10-15",
-    category: "Travel",
-    author: "Laura Novak",
-    author_img: "/images/authors/laura.jpg",
+      "How I went from knowing nothing about web development to building my first responsive website using HTML, CSS, and a lot of Google searches.",
+    image: img1,
+    date: "2025-01-12",
+    category: "Personal Story",
+    author: "Juraj Golian",
+    author_img: my_picture,
   },
   {
     id: 2,
-    title: "Mastering Next.js App Router in 2025",
+    title: "Learning React: From Confusion to Clarity",
     description:
-      "A complete guide to building modern, scalable web applications with the new Next.js App Router.",
-    image: "/images/nextjs-app-router-guide.jpg",
-    date: "2025-09-28",
-    category: "Web Development",
-    author: "Alex Smith",
-    author_img: "/images/authors/alex.jpg",
+      "React looked intimidating at first — components, props, hooks... But after building a few small apps, everything started to click.",
+    image: img2,
+    date: "2025-02-03",
+    category: "React",
+    author: "Juraj Golian",
+    author_img: my_picture,
   },
   {
     id: 3,
-    title: "How to Stay Consistent With Your Coding Routine",
+    title: "Understanding State and Props Like a Pro",
     description:
-      "Simple strategies to keep learning, stay productive, and avoid burnout as a self-taught developer.",
-    image: "/images/coding-routine.jpg",
-    date: "2025-08-21",
-    category: "Productivity",
-    author: "Mia Chen",
-    author_img: "/images/authors/mia.jpg",
+      "State and props were once my biggest headache in React. Here's how I finally understood the difference — and how I use them today.",
+    image: img3,
+    date: "2025-03-10",
+    category: "React",
+    author: "Juraj Golian",
+    author_img: my_picture,
   },
   {
     id: 4,
-    title: "10 Minimalist Design Tips for Developers",
+    title: "Diving Into Next.js: My First Full-Stack Project",
     description:
-      "Make your websites look cleaner and more professional with these easy-to-follow design guidelines.",
-    image: "/images/minimalist-design-tips.jpg",
-    date: "2025-07-11",
-    category: "Design",
-    author: "Ethan Brown",
-    author_img: "/images/authors/ethan.jpg",
+      "After learning React, I wanted more. Next.js opened the door to SSR, API routes, and a better developer experience overall.",
+    image: img4,
+    date: "2025-05-22",
+    category: "Next.js",
+    author: "Juraj Golian",
+    author_img: my_picture,
   },
   {
     id: 5,
-    title: "Slovak Cuisine You Need to Try This Fall",
+    title: "Styling in React: From CSS Files to Tailwind Magic",
     description:
-      "From bryndzové halušky to lokše — explore Slovakia’s hearty dishes perfect for the autumn season.",
-    image: "/images/slovak-cuisine-fall.jpg",
-    date: "2025-10-05",
-    category: "Food",
-    author: "Petra Kováčová",
-    author_img: "/images/authors/petra.jpg",
+      "I started with basic CSS, then moved through styled-components, and finally fell in love with Tailwind CSS for its speed and consistency.",
+    image: img5,
+    date: "2025-07-08",
+    category: "Styling",
+    author: "Juraj Golian",
+    author_img: my_picture,
+  },
+  {
+    id: 6,
+    title: "Working With APIs in React and Next.js",
+    description:
+      "Fetching data used to scare me — until I learned about async/await, SWR, and how to build clean, reusable data-fetching logic.",
+    image: img6,
+    date: "2025-08-18",
+    category: "APIs",
+    author: "Juraj Golian",
+    author_img: my_picture,
+  },
+  {
+    id: 7,
+    title: "Why TypeScript Changed How I Code",
+    description:
+      "TypeScript made me slow down at first — but now I can't imagine writing frontend apps without the type safety and better autocomplete.",
+    image: img7,
+    date: "2025-09-05",
+    category: "TypeScript",
+    author: "Juraj Golian",
+    author_img: my_picture,
+  },
+  {
+    id: 8,
+    title: "Building My Personal Blog With Next.js and Tailwind",
+    description:
+      "The project that brought everything together — routing, components, data fetching, and styling. Here’s how I built this blog from scratch.",
+    image: img8,
+    date: "2025-10-20",
+    category: "Project",
+    author: "Juraj Golian",
+    author_img: my_picture,
   },
 ];
