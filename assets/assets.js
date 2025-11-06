@@ -9,6 +9,9 @@ import img7 from "./img7.png";
 import img8 from "./img8.jpg";
 import my_picture from "./my_picture.png";
 import arrow_right from "./arrow_right.png";
+import instagram from "./instagram.png";
+import linkedin from "./linkedin.png";
+import github from "./github.png";
 
 export const assets = {
   logo,
@@ -22,6 +25,9 @@ export const assets = {
   img8,
   my_picture,
   arrow_right,
+  instagram,
+  linkedin,
+  github,
 };
 
 export const blog_data = [
@@ -32,7 +38,7 @@ export const blog_data = [
       "How I went from knowing nothing about web development to building my first responsive website using HTML, CSS, and a lot of Google searches.",
     image: img1,
     date: "2025-01-12",
-    category: "Personal Story",
+    category: "Testing",
     author: "Juraj Golian",
     author_img: my_picture,
   },
@@ -65,7 +71,7 @@ export const blog_data = [
       "After learning React, I wanted more. Next.js opened the door to SSR, API routes, and a better developer experience overall.",
     image: img4,
     date: "2025-05-22",
-    category: "Next.js",
+    category: "Tailwind",
     author: "Juraj Golian",
     author_img: my_picture,
   },
@@ -76,7 +82,7 @@ export const blog_data = [
       "I started with basic CSS, then moved through styled-components, and finally fell in love with Tailwind CSS for its speed and consistency.",
     image: img5,
     date: "2025-07-08",
-    category: "Styling",
+    category: "Testing",
     author: "Juraj Golian",
     author_img: my_picture,
   },
@@ -87,7 +93,7 @@ export const blog_data = [
       "Fetching data used to scare me — until I learned about async/await, SWR, and how to build clean, reusable data-fetching logic.",
     image: img6,
     date: "2025-08-18",
-    category: "APIs",
+    category: "Tailwind",
     author: "Juraj Golian",
     author_img: my_picture,
   },
@@ -98,7 +104,7 @@ export const blog_data = [
       "TypeScript made me slow down at first — but now I can't imagine writing frontend apps without the type safety and better autocomplete.",
     image: img7,
     date: "2025-09-05",
-    category: "TypeScript",
+    category: "Javascript",
     author: "Juraj Golian",
     author_img: my_picture,
   },
@@ -109,7 +115,7 @@ export const blog_data = [
       "The project that brought everything together — routing, components, data fetching, and styling. Here’s how I built this blog from scratch.",
     image: img8,
     date: "2025-10-20",
-    category: "Project",
+    category: "Javascript",
     author: "Juraj Golian",
     author_img: my_picture,
   },

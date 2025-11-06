@@ -4,7 +4,7 @@ import Image from "next/image";
 function BlogItem({ image, category, title, description }) {
   return (
     <div
-      className="max-w-[330mpx] sm:max-w-[300px] bg-white border border-black hover:shadow-[-2px_2px_0px_#000]
+      className="max-w-[330mpx] w-[300px] bg-white border border-black hover:shadow-[-2px_2px_0px_#000]
 "
     >
       <Image
