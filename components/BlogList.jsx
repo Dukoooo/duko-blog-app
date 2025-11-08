@@ -54,7 +54,7 @@ function BlogList() {
       </div>
       <div className=" flex flex-wrap justify-around gap-1  gap-y-10 mb-16 xl:mx-24 mx-3 ">
         {blog_data
-          .filter((item) => (menu === "All" ? true : item.category === menu))
+          .filter((el) => (menu === "All" ? true : el.category === menu))
           .map((el, index) => {
             return (
               <BlogItem
@@ -63,6 +63,7 @@ function BlogList() {
                 title={el.title}
                 descripion={el.description}
                 category={el.category}
+                id={el.id}
               />
             );
           })}
