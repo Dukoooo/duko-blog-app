@@ -41,7 +41,7 @@ export const blog_data = [
       {
         heading: "Krok 1 - vytvorenie appky",
         article:
-          "Nainštalujeme si axios ktorý nám slúži na fetch našich dát. Axios slúži na posielanie HTTP požiadaviek z prehliadača alebo Node.js. Je to populárna knižnica, ktorá uľahčuje komunikáciu s API. Následne si nainštalujeme toastify na pekné zobrazenie chybových hlášok a mongoose na prepojenie s naším back-endom.",
+          "Nainštalujeme si axios ktorý nám slúži na fetch našich dát. Axios slúži na posielanie HTTP požiadaviek z prehliadača alebo Node.js. Je to populárna knižnica, ktorá uľahčuje komunikáciu s API. Následne si nainštalujeme toastify na pekné zobrazenie chybových hlášok a mongoose na prepojenie s naším back-endom.Vytvorime si ucet na mondoDB - atlas.",
       },
       {
         heading: "Krok 2 - layout a css",
